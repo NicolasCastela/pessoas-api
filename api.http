@@ -1,0 +1,29 @@
+###
+POST http://localhost:3000/pessoas
+Content-type: application/json
+
+{
+  "name": "Nicolas",
+  "idade": 21
+}
+
+###
+GET http://localhost:3000/pessoas
+
+###
+GET http://localhost:3000/pessoas/1
+
+
+###
+PATCH http://localhost:3000/pessoas/4
+Content-type: application/json
+
+{
+  "name": "Renan",
+  "idade": 20
+}
+
+
+
+###
+DELETE http://localhost:3000/pessoas/5

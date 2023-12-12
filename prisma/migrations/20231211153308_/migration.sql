@@ -1,0 +1,6 @@
+-- CreateTable
+CREATE TABLE "Pessoas" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "name" TEXT NOT NULL,
+    "idade" INTEGER NOT NULL
+);
