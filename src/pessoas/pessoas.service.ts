@@ -1,7 +1,8 @@
-import { Injectable } from '@nestjs/common';
-import { CreatePessoaDto } from './dto/create-pessoa.dto';
-import { UpdatePessoaDto } from './dto/update-pessoa.dto';
-import { PrismaService } from 'src/prisma/prisma.service';
+/* eslint-disable prettier/prettier */
+import { Injectable } from "@nestjs/common";
+import { CreatePessoaDto } from "./dto/create-pessoa.dto";
+import { UpdatePessoaDto } from "./dto/update-pessoa.dto";
+import { PrismaService } from "src/prisma/prisma.service";
 
 @Injectable()
 export class PessoasService {

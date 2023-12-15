@@ -1,7 +1,8 @@
-import { Test, TestingModule } from '@nestjs/testing';
-import { PessoasService } from './pessoas.service';
+/* eslint-disable prettier/prettier */
+import { Test, TestingModule } from "@nestjs/testing";
+import { PessoasService } from "./pessoas.service";
 
-describe('PessoasService', () => {
+describe("PessoasService", () => {
   let service: PessoasService;
 
   beforeEach(async () => {
@@ -12,7 +13,7 @@ describe('PessoasService', () => {
     service = module.get<PessoasService>(PessoasService);
   });
 
-  it('should be defined', () => {
+  it("should be defined", () => {
     expect(service).toBeDefined();
   });
 });

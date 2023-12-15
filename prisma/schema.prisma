@@ -15,3 +15,9 @@ model Pessoas {
   name  String
   idade Int
 }
+
+model Tasks {
+id    Int    @id @default(autoincrement())
+atividade String
+
+}
